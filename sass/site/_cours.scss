@@ -2,11 +2,15 @@
 .cours{
         display: grid;
         grid-template-columns: 1fr;
-}
+}  
 
 .box{
+    margin:10px; 
+    padding:10px;
     font-size:1em;
-    display: flex;
+    display:flex;
+    border:solid white 1px;
+    
  
 }
 
