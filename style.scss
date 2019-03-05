@@ -1,0 +1,52 @@
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Nineteen Enfant
+ Author:       Jf B
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+
+/*--------------------------------------------------------------
+>>> Table des modules:
+----------------------------------------------------------------
+# Variable
+# mixins-master
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+    ## Menus
+---------------------------------------------------------------    
+# Variable
+# mixins-master    
+--------------------------------------------------------------*/
+@import "sass/variables-site/variables-site";
+@import "sass/mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "sass/normalize";
+
+/*--------------------------------------------------------------
+# animation
+--------------------------------------------------------------*/
+@import "sass/animation/animation";
+
+/*--------------------------------------------------------------
+# site
+--------------------------------------------------------------*/
+
+@import "sass/site/header"; 
+
+@import "sass/site/cours";
+
+@import "sass/site/description-cours";

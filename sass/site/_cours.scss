@@ -1,0 +1,44 @@
+
+.cours{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+.box{
+    font-size:1em;
+    display: flex;
+ 
+}
+
+@include media(mobile){
+    .cours{
+
+        grid-template-columns: 1fr 1fr;
+}
+    }
+
+    @include media(tablet){
+        .cours{
+
+            grid-template-columns: 1fr  1fr 1fr;
+    }    
+    }
+
+
+    @include media(desktop){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr;
+    }
+}
+
+    @include media(wide){
+        .cours{
+
+            grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+    } 
+    
+
+    }
+
+

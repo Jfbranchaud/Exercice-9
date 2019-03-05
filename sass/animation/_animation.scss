@@ -1,0 +1,35 @@
+.animtitre{
+    animation: animtitre 2s;
+
+
+}
+
+
+//animation du titre
+@keyframes animtitre {
+    from {
+        transform: translateY(-20vh);
+
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.animdescription{
+animation: animdescription 2s;
+
+}
+
+//animation de la description
+@keyframes animdescription {
+    from {
+        transform: translateX(200vh);
+
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
