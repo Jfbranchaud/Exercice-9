@@ -593,7 +593,27 @@ p {
   }
 }
 
-.session1 {
+.annee1 {
+  background-color: chartreuse;
+}
+
+.annee2 {
+  background-color: red;
+}
+
+.annee3 {
+  background-color: chartreuse;
+}
+
+.annee4 {
+  background-color: chartreuse;
+}
+
+.annee5 {
+  background-color: chartreuse;
+}
+
+.annee6 {
   background-color: chartreuse;
 }
 /*# sourceMappingURL=style.css.map */
